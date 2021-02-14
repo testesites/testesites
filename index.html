@@ -3,24 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <link href="main.css" rel="stylesheet">
         <!--<link href="reset.css" rel="stylesheet"> //-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="img/logo-abelha.png" type="image/x-icon">
         <title>Apiario favos da Mata Atlantica</title>
     </head>
 
     <body style="background-color: gray;">
+
+      <section> <!--navbar-->
+
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" style="color: white;" href="#">
-                <img src="img/logo-abelha.png" alt="">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo-abelha.png" alt="">                
             </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,16 +44,18 @@
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Produtos</a></li>
                     </ul>
-                  </li>                  
+                  </li>
                 </ul>
               </div>
             </div>
           </nav>
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        </section>
+
+        <section> <!--Carroussel principal-->
+          <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
             <ol class="carousel-indicators">
               <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
               <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-              
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -65,7 +71,7 @@
                   <h1 class="display-2">Nossos produtos</h1>
                   <p class="display-6 ">Conheça nosso mel, propolis e geléia real</p>
                 </div>
-              </div>              
+              </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -76,9 +82,18 @@
               <span class="visually-hidden">Next</span>
             </a>
           </div>
-        
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        </section>
+
+        <section>
+          <h1 class="text-center my-4 display-3 titulo1">Seja bem vindo(a)</h1>
+          <p class="text-center mx-5 display-6 texto1 ">Aqui você pode encontrar diversos produtos apiculas para seu consumo e também diversos serviços de remoção</p>
+        </section>
+
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </body>
+
     <br>
     <br>
     <br>
@@ -89,6 +104,50 @@
     <br>
     <br>
     <br>
+    <div class="container" style="width: 25rem;">      
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner justify-content-center">
+            <div class="carousel-item active justify-content-center">
+              <div class="card cartao">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">                  
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card cartao" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card cartao" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+            <span class="bi bi-arrow-left-circle" style="font-size: 30px; vertical-align: middle;" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
     <br>
     <br>
     <br>
