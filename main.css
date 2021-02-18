@@ -91,12 +91,6 @@ body{
     color: lightgoldenrodyellow;
 }
 
-.cartao{
-    max-width: 18rem;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .titulo1{
     color: #FFBF00; 
 }
@@ -106,6 +100,28 @@ body{
     /*font-size: 36px;*/
     font-family: 'Lexend Mega', sans-serif;
     text-align: center;
+}
+
+.caixa{
+    background: linear-gradient(
+        to top,
+        rgba(115, 45, 17, 0.4),
+        rgba(117, 83, 21, 0.1)
+
+    );
+}
+
+.cartao{
+    max-width: 18rem;
+    margin: 0 auto;
+    border-color:#FFBC40;
+    
+}
+
+.imagem-cartao{
+    object-fit: cover; 
+    /*object-position: 60% 50%;  */
+    height: 200px;
 }
 
 @media all and (min-width: 992px) {
@@ -119,7 +135,7 @@ body{
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
 
-@media (max-width: 992px){
+@media (max-width: 720px){
     .texto1{
         color: lightgoldenrodyellow;
         font-size: 24px;
