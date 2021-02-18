@@ -50,7 +50,7 @@ body{
     background-color: transparent;
 }
 
-.dropdown-divider{
+.divisor-drop{
     color:rgb(155, 72, 39);
 }
 
@@ -123,6 +123,28 @@ body{
     /*object-position: 60% 50%;  */
     height: 200px;
 }
+
+.cor-email{
+    color: #FFBF00;
+}
+
+.cor-email:hover{
+    color: orangered;
+}
+
+.icones-redes-sociais{
+    color: rgb(155, 72, 39);
+    font-size: 20px;
+}
+
+.icones-redes-sociais:hover{
+    color: darkred;
+}
+
+.divisor-rodape{
+    color: #FFBC40;
+}
+
 
 @media all and (min-width: 992px) {
     .texto1{
